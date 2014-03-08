@@ -40,14 +40,11 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>stdr_parser</build_depend>
-  <build_depend>stdr_resources</build_depend>
-  <build_depend>stdr_robot</build_depend>
-  <build_depend>stdr_server</build_depend>
   <run_depend>stdr_parser</run_depend>
   <run_depend>stdr_resources</run_depend>
   <run_depend>stdr_robot</run_depend>
   <run_depend>stdr_server</run_depend>
+  <run_depend>dagny</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
