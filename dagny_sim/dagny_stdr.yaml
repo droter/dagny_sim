@@ -17,7 +17,7 @@ robot:
           frequency: 10
           frame_id: laser
           pose:
-            x: 0.259999990463257
+            x: 0.26
             y: 0
             theta: 0
           noise:
@@ -32,9 +32,9 @@ robot:
           frequency: 1
           frame_id: sonar_1
           pose:
-            x: 0.379999995231628
-            y: -0.0599999986588955
-            theta: -0.7853975
+            x: 0.38
+            y: -0.06
+            theta: -0.7854
           noise:
             noise_specifications:
               noise_mean: 0
@@ -47,7 +47,7 @@ robot:
           frequency: 1
           frame_id: sonar_2
           pose:
-            x: 0.400000005960464
+            x: 0.4
             y: 0
             theta: 0
           noise:
@@ -62,9 +62,9 @@ robot:
           frequency: 1
           frame_id: sonar_3
           pose:
-            x: 0.379999995231628
-            y: 0.0599999986588955
-            theta: 0.7853975
+            x: 0.38
+            y: 0.06
+            theta: 0.7854
           noise:
             noise_specifications:
               noise_mean: 0
@@ -77,9 +77,9 @@ robot:
           frequency: 1
           frame_id: sonar_4
           pose:
-            x: -0.119999997317791
-            y: 0.0500000007450581
-            theta: 2.79252444444444
+            x: -0.12
+            y: 0.05
+            theta: 2.74
           noise:
             noise_specifications:
               noise_mean: 0
@@ -92,9 +92,9 @@ robot:
           frequency: 1
           frame_id: sonar_5
           pose:
-            x: -0.119999997317791
-            y: -0.0500000007450581
-            theta: -2.79252444444444
+            x: -0.12
+            y: -0.05
+            theta: -2.74
           noise:
             noise_specifications:
               noise_mean: 0

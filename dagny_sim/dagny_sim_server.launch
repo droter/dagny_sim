@@ -1,6 +1,6 @@
 <launch>
   <include file="$(find stdr_launchers)/launch/server_with_map.launch"/>
-  <include file="$(find dagny)/dagny_model.launch"/>
+  <param name="robot_description" textfile="$(find dagny_sim)/dagny.urdf"/>
 
   <node pkg="stdr_robot" type="robot_handler" name="$(anon dagny_spawn)"
         args="add $(find dagny_sim)/dagny_stdr.yaml 1 1 0" />
