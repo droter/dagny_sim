@@ -2,6 +2,20 @@
   <include file="$(find stdr_launchers)/launch/server_with_map.launch"/>
   <param name="robot_description" textfile="$(find dagny_sim)/dagny.urdf"/>
 
+  <!-- relay simulator topics to match real robot -->
+  <node pkg="topic_tools" type="relay"
+        name="laser" args="/robot0/laser_0 /scan" />
+  <node pkg="topic_tools" type="relay"
+        name="sonar_0" args="/robot0/sonar_0 /sonar" />
+  <node pkg="topic_tools" type="relay"
+        name="sonar_1" args="/robot0/sonar_1 /sonar" />
+  <node pkg="topic_tools" type="relay"
+        name="sonar_2" args="/robot0/sonar_2 /sonar" />
+  <node pkg="topic_tools" type="relay"
+        name="sonar_3" args="/robot0/sonar_3 /sonar" />
+  <node pkg="topic_tools" type="relay"
+        name="sonar_4" args="/robot0/sonar_4 /sonar" />
+
   <node pkg="stdr_robot" type="robot_handler" name="$(anon dagny_spawn)"
         args="add $(find dagny_sim)/dagny_stdr.yaml 1 1 0" />
 </launch>

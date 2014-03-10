@@ -15,7 +15,7 @@ robot:
           min_range: 0
           num_rays: 512
           frequency: 10
-          frame_id: laser
+          frame_id: laser_0
           pose:
             x: 0.26
             y: 0
