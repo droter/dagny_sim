@@ -15,6 +15,8 @@
         name="sonar_3" args="/robot0/sonar_3 /sonar" />
   <node pkg="topic_tools" type="relay"
         name="sonar_4" args="/robot0/sonar_4 /sonar" />
+  <node pkg="topic_tools" type="relay"
+        name="cmd_vel" args="/cmd_vel /robot0/cmd_vel" />
 
   <node pkg="stdr_robot" type="robot_handler" name="$(anon dagny_spawn)"
         args="add $(find dagny_sim)/dagny_stdr.yaml 1 1 0" />
