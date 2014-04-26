@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="rviz" type="rviz" name="$(anon rviz)" 
+    args="-d $(find dagny_sim)/nav_sim.rviz"/>
+</launch>
