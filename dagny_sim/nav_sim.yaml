@@ -1,10 +1,13 @@
+
 local_costmap:
+  footprint: [[-0.31,-0.30], [-0.31,0.30], [0.60,0.30], [0.60,-0.30]]
   global_frame: map
   robot_base_frame: robot0
   obstacle_layer:
     scan:
       sensor_frame: robot0_laser_0
 global_costmap:
+  footprint: [[-0.31,-0.30], [-0.31,0.30], [0.60,0.30], [0.60,-0.30]]
   robot_base_frame: robot0
   obstacle_layer:
     scan:
